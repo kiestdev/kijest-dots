@@ -22,7 +22,7 @@ git clone https://github.com/kiestdev/kijest-dots.git
 cd kijest-dots
 
 mv -n config/ ~/.config/
-mv zshrc ~/.zshrc
+mv .zshrc ~/.zshrc
 
 export EDITOR="/opt/homebrew/bin/kitty +kitten edit"
 export VISUAL="$EDITOR"
