@@ -23,6 +23,7 @@ cd kijest-dots
 
 mv -n config/ ~/.config/
 mv .zshrc ~/.zshrc
+touch .histfile
 
 export EDITOR="/opt/homebrew/bin/kitty +kitten edit"
 export VISUAL="$EDITOR"
